@@ -60,3 +60,12 @@ web:
  ```
  Por último, la configuración del tomcat 10, ya que como en el caso del mysql, las versiones anteriores nos daban problemas con la paqueteria que utiliza java. <br>
  Se vuelven a utilizar los mismo datos que se habian puesto anteriormente en el mysql. Además de añadir un volumen haciendo referencia al archivo *.war* del proyecto donde ya va incluido tanto el frontend como el backend.
+ 
+ ## Pasos para el despliegue de la aplicación.
+ Para realizar el despliegué utilizaré, como he mencionado en la introducción, nuestro proyecto ya en git, en la rama test2, donde incluye el *docker-compose* y el *.war*, asi como el script correcto de la creación de la base de datos.
+ ![image](https://user-images.githubusercontent.com/91600940/172450905-d1af88bb-bea5-4e59-898e-bdf45fb728f1.png) <br> <br>
+ 
+ Para realizar el despliegue, basta con situarse en la terminal dentro de la carpeta donde se encuentran todos estos archivos y ejectuar un ```docker-compose up -d```, de esta forma comenzará a descargar las imagenes si no estaban ya instaladas y a configurarlas segun el *docker-compose*. <br>
+ ![image](https://user-images.githubusercontent.com/91600940/172451505-e58712e2-1eef-4616-977d-ac37fe2e4fb0.png)
+
+
