@@ -102,4 +102,5 @@ Ahora quedaría hacer push de las diferentes imagenes al Docker Hub con el coman
 [Imagen phpadmin](https://hub.docker.com/repository/docker/franam1/phpmyadmin) <br>
   
 
-
+## Conclusiones
+Como ya realicé la entrega del despliegue, ya sabia los diferentes errores que me podian salir y como solucionarlos, asi que ha sido un despliegue en el que no he tenido ningún tipo de error.
