@@ -90,6 +90,13 @@ Como se puede observar me deja hacer login, y se ha registrado en la base de dat
 
 
 # Preparación y subida de la imagen a dockerhub.
+Una vez ya todo realizando, queda el paso final de subir las imagenes a dockerhub, para eso utilizaré la siguiente estructura de comandos para una correcta numeración de la imagen ```docker tag <IDImagen> nombreDockerHub/nombreTecnologia:version```.
+![image](https://user-images.githubusercontent.com/91600940/172455994-28572351-7764-42f3-b950-0d58a807a60f.png)
+
+Ahora quedaría hacer push de las diferentes imagenes al Docker Hub con el comando ```docker push <nombreDeLaImagen>```
+![image](https://user-images.githubusercontent.com/91600940/172456710-426c6a4f-3910-4d78-b6c1-c9f889b35fe9.png)
+
+
 
  
  
