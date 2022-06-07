@@ -1,7 +1,7 @@
 # ExamenFinalDocker
 
 # Introduccion
-Como proyecto final hemos hecho una aplicación web que consiste en una parte de frontend, backend y base de datos. A continuación haré un despliegue de docker en local de esta aplicación utitilizando la rama *test2* del [repositorio](https://github.com/MarcBelenFran/PokemonProject).
+Como proyecto final hemos hecho una aplicación web que consiste en una parte de frontend, backend y base de datos. A continuación haré un despliegue de docker en local de esta aplicación utitilizando la rama *test2* del [repositorio de mi proyecto](https://github.com/MarcBelenFran/PokemonProject).
 
 # Configuración del archivo docker-compose.
 En el repositorio ya tenemos el docker-compose para nuestro proyecto. Que se divide en la configuración de mysql, tomcat y phpmyadmin.
