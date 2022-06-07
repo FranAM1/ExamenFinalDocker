@@ -24,8 +24,8 @@ services:
     cap_add:
       - SYS_NICE
 ```
-Comenzando con la primera parte del docker-compose, tenemos la version que se utilizará del docker-compose (3.3) y a partir de ahi se definen los servicios mencionados anteriormente. 
-En primer lugar esta la configuracion de mysql, que en nuestro caso utilizamos un 8.0, ya que versiones anteriores nos daban problemas. 
-A partir de ahi definimos dos volumenes, ```./test:/var/lib/mysql``` ruta donde se guardara toda la configuracion y datos de la base de datos, y ```./BD:/docker-entrypoint-initdb.d``` ruta donde está guardado el script de creación de la base de datos.
-En *environment* se encuentras las diferentes configuraciones de los datos de la base de datos, entre los que se encuentran la base de datos a utilizar, el usuario y la contraseña de la sesion que se utilizará.
-Por último seria la configuración de los puertos a utilizar, en mi caso he usado el puerto 3307 ya que tengo un mysql en local que me coge el puerto 3306.
+Comenzando con la primera parte del docker-compose, tenemos la version que se utilizará del docker-compose (3.3) y a partir de ahi se definen los servicios mencionados anteriormente. <br>
+En primer lugar esta la configuracion de mysql, que en nuestro caso utilizamos un 8.0, ya que versiones anteriores nos daban problemas. <br>
+A partir de ahi definimos dos volumenes, ```./test:/var/lib/mysql``` ruta donde se guardara toda la configuracion y datos de la base de datos, y ```./BD:/docker-entrypoint-initdb.d``` ruta donde está guardado el script de creación de la base de datos. <br>
+En *environment* se encuentras las diferentes configuraciones de los datos de la base de datos, entre los que se encuentran la base de datos a utilizar, el usuario y la contraseña de la sesion que se utilizará. <br>
+Por último seria la configuración de los puertos a utilizar, en mi caso he usado el puerto 3307 ya que tengo un mysql en local que me coge el puerto 3306. <br>
