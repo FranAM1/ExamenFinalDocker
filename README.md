@@ -1,6 +1,6 @@
 # ExamenFinalDocker
 
-# Introduccion
+# Introducción
 Como proyecto final hemos hecho una aplicación web que consiste en una parte de frontend, backend y base de datos. A continuación haré un despliegue de docker en local de esta aplicación utitilizando la rama *test2* del [repositorio de mi proyecto](https://github.com/MarcBelenFran/PokemonProject).
 
 # Configuración del archivo docker-compose.
@@ -102,5 +102,5 @@ Ahora quedaría hacer push de las diferentes imagenes al Docker Hub con el coman
 [Imagen phpadmin](https://hub.docker.com/repository/docker/franam1/phpmyadmin) <br>
   
 
-## Conclusiones
+# Conclusiones
 Como ya realicé la entrega del despliegue, ya sabia los diferentes errores que me podian salir y como solucionarlos, asi que ha sido un despliegue en el que no he tenido ningún tipo de error.
