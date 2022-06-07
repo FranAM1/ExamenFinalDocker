@@ -66,6 +66,33 @@ web:
  ![image](https://user-images.githubusercontent.com/91600940/172450905-d1af88bb-bea5-4e59-898e-bdf45fb728f1.png) <br> <br>
  
  Para realizar el despliegue, basta con situarse en la terminal dentro de la carpeta donde se encuentran todos estos archivos y ejectuar un ```docker-compose up -d```, de esta forma comenzará a descargar las imagenes si no estaban ya instaladas y a configurarlas segun el *docker-compose*. <br>
- ![image](https://user-images.githubusercontent.com/91600940/172451505-e58712e2-1eef-4616-977d-ac37fe2e4fb0.png)
+ ![image](https://user-images.githubusercontent.com/91600940/172451505-e58712e2-1eef-4616-977d-ac37fe2e4fb0.png) <br>
+ 
+ Una vez finalizado el docker-compose, ya estarán los contenedores de las imagenes en funcionamiento.
+ ![image](https://user-images.githubusercontent.com/91600940/172452538-c4bf4b46-e968-4ea1-b3f3-599aec4278bd.png)
+
+# Demostración del correcto despliegue.
+Primer revisaré que la parte del tomcat se ha desplegado correctamente accediendo a http://localhost:8080/PokemonFBM
+![image](https://user-images.githubusercontent.com/91600940/172452809-73a85f9e-5cb2-4726-b713-5ccfb08d91d4.png) <br>
+Así pues, tambien revisaré todo el apartado relacionado con la base de datos entrando a http://localhost:8081/ ruta del *phpadmin* con las credenciales puestas anteriormente.
+![image](https://user-images.githubusercontent.com/91600940/172453340-b705dbae-b902-417a-8278-9df2844d724e.png) <br>
+Como se puede obervar toda la creacion inicial de la base de datos con sus inserts incluidos se ha realizado correctamente.
+![image](https://user-images.githubusercontent.com/91600940/172453540-af845850-4ca8-4538-bdd4-a0e730b5853c.png)
+
+
+## Ejemplo de registro en la página.
+Registro un usuario de ejemplo con usuario *fran*, correo *fran@gmail.com* y contraseña *123456Fran*
+![image](https://user-images.githubusercontent.com/91600940/172453912-2b1c85d4-0f46-42b1-bcbf-61c2513dffa8.png) <br>
+
+Como se puede observar me deja hacer login, y se ha registrado en la base de datos correctamente.
+![image](https://user-images.githubusercontent.com/91600940/172454068-8d079f65-f805-49b2-98ad-2e7085edce13.png)
+![image](https://user-images.githubusercontent.com/91600940/172454108-e6d5ad9f-5cd0-49d9-b5ed-47d322d50da5.png)
+
+
+
+
+
+ 
+ 
 
 
