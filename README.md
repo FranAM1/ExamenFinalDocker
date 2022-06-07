@@ -96,9 +96,10 @@ Una vez ya todo realizando, queda el paso final de subir las imagenes a dockerhu
 Ahora quedaría hacer push de las diferentes imagenes al Docker Hub con el comando ```docker push <nombreDeLaImagen>```
 ![image](https://user-images.githubusercontent.com/91600940/172456710-426c6a4f-3910-4d78-b6c1-c9f889b35fe9.png)
 
-
-
- 
- 
+## Imagenes subidas al DockerHub
+[Imagen tomcat](https://hub.docker.com/repository/docker/franam1/tomcat) <br>
+[Imagen mysql](https://hub.docker.com/repository/docker/franam1/mysql) <br>
+[Imagen phpadmin](https://hub.docker.com/repository/docker/franam1/phpmyadmin) <br>
+  
 
 
